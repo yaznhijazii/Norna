@@ -1,0 +1,19 @@
+/* IBM Plex Sans Arabic Font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
+/* Amiri Quran Font for Quranic text */
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
+
+* {
+  font-family: 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Quran text specific styling - must come after * and have !important to override */
+.quran-text,
+.quran-text * {
+  font-family: 'Amiri Quran', 'Amiri', serif !important;
+}
+
+.font-amiri {
+  font-family: 'Amiri Quran', 'Amiri', serif !important;
+}
